@@ -5,7 +5,6 @@ import Spinner from './Spinner'
 import Pagination from './Pagination'
 import Modal from './Modal'
 import { useSearchParams } from 'react-router-dom'
-
 function LaunchesList() {
   const [searchParams, setSearchParams] = useSearchParams()
   const [rockets, setRockets] = useState([])
